@@ -1,5 +1,8 @@
+# Este programa demonstra herança em Python criando uma classe de veículos elétricos.
+#Ele define uma classe base 'Carro' e uma classe filha 'CarroEletrico' com autonomia personalizada.
+
 class Carro:
-    def __init__(self,marca, modelo):
+    def __init__(self, marca, modelo):
         self.marca = marca
         self.modelo = modelo
 
@@ -10,12 +13,6 @@ class CarroEletrico(Carro):
     def __init__(self, marca, modelo, autonomia_bateria):
         super().__init__(marca, modelo)
         self.autonomia = autonomia_bateria
-
-
-
-
-
-
 
     def exibir_info(self):
         info_base = super().exibir_info()

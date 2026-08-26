@@ -1,5 +1,8 @@
+# Este código demonstra o conceito de herança em Programação Orientada a Objetos em Python.
+# Ele cria uma classe base Carro e uma classe filha CarroEletrico com atributos e métodos próprios.
+
 class Carro:
-    def __init__(self,marca, modelo):
+    def __init__(self, marca, modelo):
         self.marca = marca
         self.modelo = modelo
 
