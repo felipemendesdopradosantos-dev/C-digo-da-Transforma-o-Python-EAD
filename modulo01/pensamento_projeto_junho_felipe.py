@@ -208,7 +208,7 @@ entry_venda_qtd.grid(row=0, column=3, padx=5, pady=5)
 btn_vender = tk.Button(frame_venda, text="Confirmar Venda", command=realizar_venda, bg=COR_ROXO_VINHO, fg="white", font=("Arial", 10, "bold"))
 btn_vender.grid(row=0, column=4, padx=15)
 
-# --- FRAME: LISTAGEM DE PRODUTOS ---
+# --- FRAME: LISTAGEM DE PRODUTOS --- isso ---
 frame_lista = tk.LabelFrame(janela, text=" 2 - Produtos em Estoque ", font=("Arial", 11, "bold"), bg=COR_AZUL_MEDIO, fg=COR_AZUL_CLARO, padx=10, pady=10)
 frame_lista.pack(fill="both", expand=True, padx=15, pady=5)
 
@@ -221,3 +221,4 @@ atualizar_lista_produtos()
 
 # Executa o loop do aplicativo
 janela.mainloop()
+
